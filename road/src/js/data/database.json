@@ -1,0 +1,70 @@
+{
+	"techdb":[
+			{
+                "content": "HTML",
+                "color": "bg-col-01"
+			},
+			{
+                "content": "high speed",
+                "color": "bg-col-02"
+			},
+			{
+                "content": "responsive code",
+                "color": "bg-col-03"
+			}
+		],	
+	"designdb":[
+			{
+				"imgUrl": "icon_01.png",
+				"pos": "tech-01",
+				"heading": "Web Design",
+				"details": "Designing for the web is not a job it's a lifestyle. As technology changes so does the challenge."
+			},
+			{
+				"imgUrl": "icon_02.png",
+				"pos": "tech-02",
+				"heading": "UX Design",
+				"details": "An extension of my love for design and problem solving, UX allows me to dictate the skeleton. "
+			},
+			{
+				"imgUrl": "icon_03.png",
+				"pos": "tech-03",
+				"heading": "Development",
+				"details": "I love bringing my designs to life in HTML, CSS & Javascript, also acting like a mad scientist."
+			},
+			{
+				"imgUrl": "icon_04.png",
+				"pos": "tech-04",
+				"heading": "UI Design",
+				"details": "I design user friendly, intuitive interfaces allowing users to focus on the task and not the tool."
+			}
+		],
+		
+	"aboutdb": [
+		{
+			"heading": "Web Design",
+			"details": "My name is Paras Verma having 10 years experience in HTML ,CSS, HTML5, CSS3, Sass, Responsive designs, Javasript, Jquery, Angular, PSDtoHTML as per latest web standards which engage the user and provide a high quality of frontend code."
+		},
+		{
+			"heading": "Web Design",
+			"details": "Good communication skills including the ability to convey ideas and information clearly, concisely and persuasively."
+		},
+		
+		{
+			"heading": "Web Design",
+			"details": "Solving complex usability roadblocks & design problems."
+		},
+		{
+			"heading": "Web Design",
+			"details": "Flexibility, good judgment and zeal to excel by learning new things are my strong point."
+		},
+		{
+			"heading": "Web Design",
+			"details": "Enjoy with Angular, JavaScript, Jquery, ui coding, wire framing & prototyping."
+		},
+		{
+			"heading": "Web Design",
+			"details": "The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows."
+		}		
+	]
+}

@@ -1,0 +1,197 @@
+{
+	"techdb":[
+			{
+                "content": "HTML",
+                "color": "bg-col-01"
+			},
+			{
+                "content": "high speed",
+                "color": "bg-col-02"
+			},
+			{
+                "content": "responsive code",
+                "color": "bg-col-03"
+			}
+		],	
+	"designdb":[
+			{
+				"imgUrl": "sprite.png",
+				"pos": "tech-01",
+				"heading": "Web Design",
+				"details": "Designing for the web is not a job it's a lifestyle. As technology changes so does the challenge."
+			},
+			{
+				"imgUrl": "sprite.png",
+				"pos": "tech-02",
+				"heading": "UX Design",
+				"details": "An extension of my love for design and problem solving, UX allows me to dictate the skeleton. "
+			},
+			{
+				"imgUrl": "sprite.png",
+				"pos": "tech-03",
+				"heading": "Development",
+				"details": "I love bringing my designs to life in HTML, CSS & Javascript, also acting like a mad scientist."
+			},
+			{
+				"imgUrl": "sprite.png",
+				"pos": "tech-04",
+				"heading": "UI Design",
+				"details": "I design user friendly, intuitive interfaces allowing users to focus on the task and not the tool."
+			}
+		],
+		
+	"aboutdb": [
+		{
+			"myVar" : "sdfsd",
+			"heading": "Web Design",
+			"details": "My name is Paras Verma having 10 years experience in HTML ,CSS, HTML5, CSS3, Sass, Responsive designs, Javasript, Jquery, Angular, PSDtoHTML as per latest web standards which engage the user and provide a high quality of frontend code."
+		},
+		{
+			"myVar" : "sdfsd",
+			"heading": "Web Design",
+			"details": "Good communication skills including the ability to convey ideas and information clearly, concisely and persuasively."
+		},
+		
+		{
+			"myVar" : "sdfsd",
+			"heading": "Web Design",
+			"details": "Solving complex usability roadblocks & design problems."
+		},
+		{	
+			"myVar" : "sdfsd",
+			"heading": "Web Design",
+			"details": "Flexibility, good judgment and zeal to excel by learning new things are my strong point."
+		},
+		{	
+			"myVar" : "sdfsd",
+			"heading": "Web Design",
+			"details": "Enjoy with Angular, JavaScript, Jquery, ui coding, wire framing & prototyping."
+		},
+		{	
+			"myVar" : "sdfsd",
+			"heading": "Web Design",
+			"details": "The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows."
+		}		
+	],
+"portfolio" :[
+		{
+			"id": "img_00",
+			"heading": "Paras Portfolio",
+			"des": "Angular + Responsive + JavaScript + Jquery",
+			"imgPrev": "img_00_prev",
+			"imgNext": "img_00_next",
+			"image": "img_00.jpg",
+			"imgCaption": "Paras Portfolio - Angular/Responsive/JavaScript/Jquery"
+		}
+	],
+	"portThumb" :[
+		{
+			"class": "wah_00",
+			"image": "img_00.jpg",
+			"heading": "Paras Portfolio",
+			"des": "Angular + Responsive + JavaScript + Jquery"
+		},
+		{
+			"class": "wah_01",
+			"image": "img_16.jpg",
+			"heading": "Pixelstech Website",
+			"des": "Concept Redesign-UI + PSD2HTML + Javascript Effects"
+		},
+		{
+			"class": "wah_02",
+			"image": "img_17.jpg",
+			"heading": "Paras Portfolio",
+			"des": "Rajasthan Spring Website</h2><p>Concept Redesign-UI + PSD2HTML + Javascript Effects"
+		},
+		{
+			"class": "wah_03",
+			"image": "img_18.jpg",
+			"heading": "Rajasthan Filters Website",
+			"des": "Concept Redesign-UI + PSD2HTML + Javascript Effects"
+		},
+		{
+			"class": "prev_01",
+			"image": "img_01.jpg",
+			"heading": "Communities in Schools iOS App",
+			"des": "Concept Redesign-UI Design"
+		},
+		{
+			"class": "prev_02",
+			"image": "img_02.jpg",
+			"heading": "OVA iOS App",
+			"des": "Concept Redesign-UI Design"
+		},
+		{
+			"class": "prev_03",
+			"image": "img_03.jpg",
+			"heading": "Buzzbehind.com",
+			"des": "Concept Redesign-UI Design"
+		},
+		{
+			"class": "prev_04",
+			"image": "img_04.jpg",
+			"heading": "Buzzbehind.com",
+			"des": "Concept Redesign-UI Design"
+		},
+		{
+			"class": "prev_05",
+			"image": "img_05.jpg",
+			"heading": "Arna",
+			"des": "Concept Redesign-UI Design"
+		},
+		{
+			"class": "prev_06",
+			"image": "img_06.jpg",
+			"heading": "FlyMuzik",
+			"des": "Concept Redesign-UI Design"
+		},
+		{
+			"class": "prev_07",
+			"image": "img_07.jpg",
+			"heading": "OVA Website",
+			"des": "Concept Redesign-UI Design"
+		},
+		{
+			"class": "prev_08",
+			"image": "img_08.jpg",
+			"heading": "davidaross.com",
+			"des": "Concept Redesign-UI Design"
+		},
+		{
+			"class": "prev_09",
+			"image": "img_09.jpg",
+			"heading": "TheHomeAlliace.com",
+			"des": "Concept Redesign-UI Design"
+		},
+		{
+			"class": "prev_10",
+			"image": "img_10.jpg",
+			"heading": "ValleyDiamonds",
+			"des": "UI Design - Redesign-UI Design"
+		},
+		{
+			"class": "prev_11",
+			"image": "img_11.jpg",
+			"heading": "ownersafe.com",
+			"des": "UI Design - Redesign-UI Design"
+		},
+		{
+			"class": "prev_12",
+			"image": "img_12.jpg",
+			"heading": "Realestate",
+			"des": "UI Design"
+		},
+		{
+			"class": "prev_13",
+			"image": "img_13.jpg",
+			"heading": "Affordale Painters",
+			"des": "Redesign-UI Design"
+		},
+		{
+			"class": "prev_14",
+			"image": "img_14.jpg",
+			"heading": "OBIAA",
+			"des": "UI Design"
+		}
+	]
+}

@@ -1,0 +1,103 @@
+/* portfolio start */
+
+.portfo{
+	padding-bottom: 150px;
+}
+
+.portfo h3{
+	font: bold 28px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #363940;
+    text-align: left;
+}
+
+.container-img{
+	margin-top: 30px;
+}
+
+.collage {
+	width: 33.33%;
+	max-height: 315px;
+	float: left;
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	-moz-transition: background-size 1.2s;
+	-o-transition: background-size 1.2s;
+	-webkit-transition: background-size 1.2s;
+	transition: background-size 1.2s;
+}
+
+.collage:hover {
+	background-size: 125% 125%;
+}
+
+.collage img {
+	max-width: 100%;
+	display: block;
+}
+
+.collage:hover .box-text-inner {
+	background-color: #286a88;
+}
+
+.collage .box-text-inner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	-moz-transition: background 0.9s;
+	-o-transition: background 0.9s;
+	-webkit-transition: background 0.9s;
+	transition: background 0.9s;
+	width: 100%;
+}
+
+.collage .box-text-inner .content {
+	-moz-transition: bottom 0.4s;
+	-o-transition: bottom 0.4s;
+	-webkit-transition: bottom 0.4s;
+	transition: bottom 0.4s;
+	position: absolute;
+	top: 0;
+	bottom: -150%;
+	right: 0;
+	left: 0;
+	width: 80%;
+	height: 20px;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+}
+
+.collage:hover .box-text-inner .content {
+	bottom: 0;
+}
+.collage .box-text-inner h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0 0 8px;
+	font-weight: 700;
+}
+
+.work_item {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: none;
+}
+
+.slide_container .close_work {
+	right: 0;
+	top: -20px;
+	left: 0;
+	margin: auto;
+}
+
+
+/* portfolio end */

@@ -1,0 +1,93 @@
+/* home start */
+
+.home-text h3{
+	font: normal 50px arial;
+	margin: 180px 0 40px 0;
+	display: inline-block;
+	}
+.home-text ul li{
+	display: inline-block;
+	vertical-align: middle;
+	margin:0 0 0.5em 0.2em;
+	}
+.home-text ul li:first-child::before{
+	display: none;
+}
+.home-text ul li::before{
+	content: "";
+	margin: 0 0.3em 0.1em 0.3em ;
+	width: 5px;
+	height: 5px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #fff;
+	display: inline-block;
+}
+
+.home-text ul li:first-child i:before{
+	display:none;
+}
+
+
+.bottom-img{
+	overflow:hidden;
+	padding-top: 60px;
+	display: block;
+}
+
+.backfill{
+	background: #fff;
+}
+
+.bottom-wrapper{
+	font-weight: 200;
+	text-align: right;
+	color: #fff;
+	height: 404px;
+	width: 100%;
+	background: #111;
+    background:url(../../../images/bg_home_01.svg) left -51px repeat-x #ececec;
+	-webkit-transform: skewX(5deg);
+	-moz-transform: skewX(5deg);
+	-ms-transform: skewX(5deg);
+	-o-transform: skewX(5deg);
+	transform: skewY(5deg);
+    margin-bottom: -60px;
+    opacity: 1;
+}
+
+.see-bottom{
+	width:60px;
+	height:60px;
+	background:url(../../../images/sprite.png) -293px -99px no-repeat;
+	margin: 10px auto 0 auto;
+	position: relative;
+	-webkit-animation: arrow 1s infinite;
+	-moz-animation: arrow 1s infinite;
+	-o-animation: arrow 1s infinite;
+	animation: arrow 1s infinite;
+	cursor:pointer;
+	display: block;
+}
+
+app-info-what{
+	background: #fff;
+    width: 100%;
+    float: left;
+}
+/* @-webkit-keyframes arrow{ */
+
+@keyframes arrow{
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(20px);
+	}
+	75% {
+		transform: translateX(0);
+	}
+}
+
+/* home end */

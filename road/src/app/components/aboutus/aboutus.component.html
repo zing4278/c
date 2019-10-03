@@ -1,0 +1,12 @@
+<div @fade>
+  <header>
+      <h3>About Me</h3>
+  </header>
+  <div *ngIf="isLoading" style="text-align: center">
+      <app-loading></app-loading>
+    </div>
+  <div class="inner-container about" *ngIf="!isLoading">
+    <h3>{{title}}</h3>
+    <p *ngFor="let aboutdbItems of aboutdb.aboutdb">{{aboutdbItems.details}}</p>
+  </div>
+</div>

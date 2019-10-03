@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'EngraversGothic BT';
+    src: url('../../../fonts/EngraversGothicBT-Regular.eot');
+    src: url('../../../fonts/EngraversGothicBT-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../../fonts/EngraversGothicBT-Regular.woff') format('woff'),
+        url('../../../fonts/EngraversGothicBT-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* left-nav start */
+
+.noir, .noirProfil {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 500;
+	background: #000;
+	opacity: 0;
+	cursor: pointer;
+}
+.nav {
+	font-weight: 200;
+	text-align: right;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: -545px;
+	height: 100%;
+	width: 409;
+	background: #ececec;
+	z-index: 900;
+	-webkit-transform: skewX(-12deg);
+	-moz-transform: skewX(-12deg);
+	-ms-transform: skewX(-12deg);
+	-o-transform: skewX(-12deg);
+	transform: skewX(-12deg);
+}
+
+.close{
+	width: 48px;
+	height: 49px;
+	background: url(../../../images/icon_close.png) 17px 14px no-repeat;
+	float: right;
+	cursor: pointer;
+	transform: skewX(12deg);
+}
+
+.projets {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 40px;
+}
+.projets  ul li{
+	margin:0;
+	padding:0;
+	list-style: none;
+	}
+.projets a {
+	text-decoration: none;
+	margin:-1px 60px 0 0;
+	cursor: pointer;
+	text-transform: capitalize;
+	display: inline-block;
+	padding-left: 20px;
+	color: #000;
+	font-size: 26px;
+	font-family: 'EngraversGothic BT';
+		-webkit-transition: all .55s cubic-bezier(.25,.8,.25,1); 
+   transition: all .55s cubic-bezier(.25,.8,.25,1); 
+}
+.lang-wrapper{
+	width: 940px;
+	margin: 0 auto;
+	-webkit-transform: skewX(-5deg);
+	-moz-transform: skewX(-5deg);
+	-ms-transform: skewX(-5deg);
+	-o-transform: skewX(-5deg);
+	transform: skewY(-5deg);
+	margin-top: 30px;
+}
+.lang-logos{
+	width: 107px;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.logo{
+	width: 344px;
+	position: fixed;
+	top: -21px;
+	left: -76px;
+	height: 107px;
+	background: #ececec;
+	z-index: 300;
+	-webkit-transform: skewX(-55deg) rotate(3deg);
+	-moz-transform: skewX(-55deg) rotate(3deg);
+	-ms-transform: skewX(-55deg) rotate(3deg);
+	-o-transform: skewX(-55deg) rotate(3deg);
+	transform: skewX(-55deg) rotate(3deg);
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.menu {
+	cursor: pointer;
+	position: fixed;
+	top: 0px;
+	left: 5px;
+	width: 60px;
+	height: 60px;
+	z-index: 999;
+	opacity: 0;
+}
+.menu div {
+	position: absolute;
+	width: 22px;
+	height: 3px;
+	background-size: 30px 5px;
+	background-color: #0d435c;
+}
+.ligne1 {
+	top: 22px;
+	left: 15px;
+}
+.ligne2 {
+	top: 28px;
+	left: 15px;
+}
+.ligne3 {
+	top: 34px;
+	left: 15px;
+}
+
+
+.logo span, .nav span.proto{
+	color: #4a86a1;
+	font: bold 24px arial;
+	display: block;
+	float: right;
+	text-indent: -23px;
+	line-height: 24px;
+	text-transform: uppercase;
+	-webkit-transform: skewX(-58deg) rotate(-3deg);
+	-moz-transform: skewX(-58deg) rotate(-3deg);
+	-ms-transform: skewX(-58deg) rotate(-3deg);
+	-o-transform: skewX(-58deg) rotate(-3deg);
+	transform: skewX(58deg) rotate(-3deg);
+	margin: 34px 57px 0 0;
+}
+.nav span.proto{
+		margin-right: 0;
+	-webkit-transform: skewX(13deg) rotate(0deg);
+	-moz-transform: skewX(12deg) rotate(0deg);
+	-ms-transform: skewX(12deg) rotate(0deg);
+	-o-transform: skewX(12deg) rotate(0deg);
+	 transform: skewX(12deg) rotate(0deg);
+	width: 230px;
+	height: 48px;
+}
+.logo span{
+	width: 170px;
+	text-indent: 0 !important; 
+	margin: 37px 44px 0 0 !important;
+}
+.logo span img, .nav span.proto img {
+	max-width: 100%;
+}
+
+.projets a.active {
+    color: rgb(248, 148, 0) !important;
+    margin-right: 50px !important;
+}
+
+/* left-nav end */
